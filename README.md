@@ -7,3 +7,8 @@ Setup:
 4. Finally, download the Gurobi Python API, [gurobipy](https://pypi.org/project/gurobipy/), by pasting "pip install gurobipy" in your desired Python environment of your computer's command prompt or terminal.
 
 Please refer to this [video walkthrough](https://www.youtube.com/watch?v=oW6ma8rdZk8) for any questions.
+
+
+# Optimizing your Optimization
+
+Join us on a walkthrough for solving optimization problems with Gurobi in Python. Gurobi is a powerful tool that leverages the state-of-the-art in optimization for solving massive and complex problems that are too challeging to solve with other methods. The talk will feature a brief presentation of optimization problems, using examples relevant to transportation. We will then shift over to coding these sample problems using gurobipy: learning how to create variables, specify objective functions, and write constraints. We will wrap up by discussing best practices and advanced solution techniques for taking your optimization to the next level.
