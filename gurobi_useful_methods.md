@@ -6,6 +6,13 @@ model.setAttr('attrName', <attrValue>)      # for model-specific attributes
 var.setAttr('attrName', <attrValue>)        # for variable-specific attributes
 constr.setAttr('attrName', <attrValue>)     # for constraint-specific attributes
 ```
+and retrieved by:
+```python
+model.getAttr('attrName', <attrValue>)      # for model-specific attributes
+  model.getAttr('x', <var>)                 # example method for retrieving model solution values for <var>
+var.getAttr('attrName', <attrValue>)        # for variable-specific attributes
+constr.getAttr('attrName', <attrValue>)     # for constraint-specific attributes
+```
 
 
 [LPWarmStart](https://www.gurobi.com/documentation/current/refman/lpwarmstart.html#parameter:LPWarmStart): set whether to use a warm start solution or bounds. It is specified using the attributes VBasis and CBasis or PStart and DStart on the original model.
