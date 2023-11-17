@@ -16,3 +16,5 @@ Please refer to this [video walkthrough](https://www.youtube.com/watch?v=oW6ma8r
 
 Coding materials, examples, and other resources will be available in this repository.
 
+Access video tutorial of jupyter notebook [here](https://drive.google.com/file/d/1NURzxyOHp4l7w9wsWhr-nH9EHQfpY4-Y/view?usp=share_link).
+
